@@ -34,15 +34,20 @@ header {
     position: relative;
 }
 
-#hero #hallow {
+#hero #fonto-pagina {
     display: inline-block;
-    width: 100%;
+    width: 50%;
 }
 
 #hero .informacion-contenedor {
     position: absolute;
-    top: 0;
+    top: 15%;
+    transform: translateY(-50%);
     left: 0;
+    display: flex;
+    width: 100%;
+    color: rgb(10, 10, 10);
+    padding: 0 50px;
 }
 
 #hero .informacion-contenedor #foto {
@@ -50,4 +55,15 @@ header {
 }
 #hero .informacion-contenedor img {
     border-radius: 100%;
+}
+
+#hero .informacion-contenedor .informacion {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#hero .informacion-contenedor .informacion span {
+    color: #b5b5b5;
+    margin-bottom: 70px;
+    display: inline-block;
 }
