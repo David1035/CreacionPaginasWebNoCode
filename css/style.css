@@ -68,3 +68,15 @@ header {
     margin-bottom: 70px;
     display: inline-block;
 }
+
+/* main */
+main {
+    padding: 100px;
+}
+
+main .social-icons {
+
+}
+main .social-icons .social-icon {
+    background-color: aqua;
+}
