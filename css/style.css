@@ -42,7 +42,7 @@ header {
 
 #hero .informacion-contenedor {
     position: absolute;
-    top: 15%;
+    top: 40%;
     transform: translateY(-50%);
     left: 0;
     display: flex;
@@ -61,6 +61,7 @@ header {
 #hero .informacion-contenedor .informacion {
     margin-left: 20px;
     font-weight: bold;
+    width: calc(100% - 200px);
 }
 
 #hero .informacion-contenedor .informacion span {
@@ -75,8 +76,39 @@ main {
 }
 
 main .social-icons {
-
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+main .social-icons li {
+    margin-left: 8px;
 }
 main .social-icons .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: aqua;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+
+}
+main .social-icons .social-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+main .social-icons #facebook {
+background: blue;
+}
+main .social-icons #GitH {
+    background: rgb(150, 150, 165);
+}
+main .social-icons #Linkeding {
+    background: rgb(0, 255, 183);
+}
+main .social-icons #Platzi {
+    background: rgb(195, 255, 0);
 }
