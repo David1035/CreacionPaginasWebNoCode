@@ -37,6 +37,7 @@ header {
 #hero #fondo-pagina {
     display: inline-block;
     width: 100%;
+    background-color: black;
 
 }
 
